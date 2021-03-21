@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  @apply text-warmGray-700 font-sans leading-relaxed;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Calistoga', 'Roboto', sans-serif;
+}
+
+a {
+  @apply text-emerald-600 font-semibold;
+}
+
+a:hover {
+  @apply text-emerald-800;
+}

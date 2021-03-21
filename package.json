@@ -1,0 +1,30 @@
+{
+  "name": "andreasorrentino.me",
+  "version": "1.0.0",
+  "description": "Personal website and blog.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eleventy --serve & postcss styles/tailwind.css --o _tmp/style.css --watch",
+    "build": "ELEVENTY_PRODUCTION=true eleventy & NODE_ENV=production postcss styles/tailwind.css --o docs/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorrentix/andreasorrentino.me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sorrentix/andreasorrentino.me/issues"
+  },
+  "homepage": "https://github.com/sorrentix/andreasorrentino.me#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "autoprefixer": "^10.2.5",
+    "cross-env": "^7.0.3",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.4"
+  }
+}
