@@ -17,3 +17,27 @@ a {
 a:hover {
   @apply text-emerald-800;
 }
+
+ul li.lab::before {
+  content: "🧪";
+}
+
+ul li.network::before {
+  content: "📡";
+}
+
+ul li.car::before {
+  content: "🚗";
+}
+
+ul li.degree::before {
+  content: "👨‍🎓";
+}
+
+ul li.post::before {
+  content: "📫";
+}
+
+ul li.bolt::before {
+  content: "⚡";
+}
